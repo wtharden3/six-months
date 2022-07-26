@@ -5,6 +5,7 @@ I am expand on it and keep playing with it. I may practice the fecth api or axio
 to bring in a 3rd party api in order to practice with data. Or I may insert more entries so I can practice using dynamic content with the React components.
 
 ## API's to consider
-(Best Api's for Beginners)[https://rapidapi.com/collection/best-apis-for-beginners]
+[Best Api's for Beginners](https://rapidapi.com/collection/best-apis-for-beginners)
+
 
 Remember: `yarn start`
