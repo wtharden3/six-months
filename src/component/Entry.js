@@ -14,7 +14,6 @@ function Entry(props){
       <p>This is the author of the song: {props.entry1.author}</p>
       <h3>Song keywords: </h3>
       <ul>{displayKewords}</ul>
-      
     </React.Fragment>
   )
 }
