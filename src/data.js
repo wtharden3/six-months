@@ -1,12 +1,15 @@
 const data = {
   entry1: {
     entryid: 1,
+    returnEntryId: function(){
+      return this.entryid;
+    },
     title: 'Materpiece (Mona Lisa)',
     subtitle: 'Reality Show',
     author: 'Jazmine Sullivan',
     url: 'https://www.webwhit.com',
     year: 2015,
-    feelings: 'This was a great pre-cursor to a recent mediatation I had focused on self-love',
+    feelings: 'This was a great pre-cursor to a recent mediatation I had where I focused on self-love',
     playOnRepeat: true,
     keywords: ['self-esteem', 'self-worth', 'empowerment', 'beautiful', 'beaty', 'masterpiece', 'shine', 'bright', 'vision', 'mona lisa', 'every part of me', 'work of art', 'art', 'pretty', 'exposed', 'flaws', 'Jazmine Sullivan'],
     entryDate: '7/25/2022',
@@ -21,6 +24,9 @@ const data = {
   },
   entry2: {
     entryid: 2,
+    returnEntryId: function(){
+      return this.entryid;
+    },
     title: 'Close',
     subtitle: 'Ella Mai',
     author: 'Ella Mai',
