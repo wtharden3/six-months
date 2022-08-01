@@ -1,14 +1,13 @@
-import React,{useState} from 'react';
+import React from 'react';
 
 function Entry(props){
-  const [keywords, setKeywords] = useState(props.entry.keywords);
-  
-  const displayKewords = keywords.map( (word,index) => {
+  const displayKewords = props.entry.keywords.map( (word,index) => {
     return(
       <li key={index}>{word}</li>
     )
   });
   const {title, author} = props.entry;
+  
   return(
     <React.Fragment>
       <h3>This is the Entry song title: {title}</h3>

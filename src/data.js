@@ -34,7 +34,7 @@ const data = {
     year: 2018,
     feelings: 'feelings of love and the start of love',
     playOnRepeat: true,
-    keywords: ['love', 'falling in love', 2018, 'vulnerability'],
+    keywords: ['love', 'falling in love', 2018, 'vulnerability', 'close', 'fear of falling', 'fear of getting hurt'],
     entryDate: '7/30/22',
     lyrics: {
       verse1: ['I don\'t know who\'s living in my body', 'Cause I don\'t recognize a thing about it', 'That don\'t even matter', 'I\'m just glad I got into the party', 'So I can feel your music in my body'],

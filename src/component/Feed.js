@@ -26,7 +26,7 @@ function Feed(props){
     console.log(data);
     console.log(data[entry]);
     return(
-      <Col>
+      <Col sm="2">
         <Entry entry={data[entry]} />
       </Col>
     )
