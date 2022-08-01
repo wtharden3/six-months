@@ -19,6 +19,26 @@ const data = {
       closing: ['Every part of me is a vision', 'Every part of me is beautiful', 'and I finally see, I\'m a work of art', 'a masterpiece']
     }
   },
+  entry2: {
+    entryid: 2,
+    title: 'Close',
+    subtitle: 'Ella Mai',
+    author: 'Ella Mai',
+    url: 'https://webwhit.com',
+    year: 2018,
+    feelings: 'feelings of love and the start of love',
+    playOnRepeat: true,
+    keywords: ['love', 'falling in love', 2018, 'vulnerability'],
+    entryDate: '7/30/22',
+    lyrics: {
+      verse1: ['I don\'t know who\'s living in my body', 'Cause I don\'t recognize a thing about it', 'That don\'t even matter', 'I\'m just glad I got into the party', 'So I can feel your music in my body'],
+      preBridge1: ['Cause you the only one out of everybody', 'Who can deal with all my ways', 'You know I got some ways', 'But you control the flames', 'So I just wanna stay right here with you'],
+      bridge: ['It could be a room full of people, you still on my side', 'Look at how the whole world is searching, but I got mine', 'It\'s emotional, uncontrollable, all I think about is you', 'So if the tears wanna flood in my gates', 'Let the water flow', 'Just let it fall off a my face', 'Cause I never thought I\'d ever hear me say', 'I just can\'t breathe without my baby', 'Ooh, you my baby'],
+      hook: ['So come and kiss upon me', 'As we dance close'],
+      verse2: ['I don\'t even really care who knows it', 'Just keep me there, just keep me in the moment', 'Seen a lot of things but I never seen my spirit glowing', 'The way you do me got me outta body'],
+      preBridge2: ['Cause you the only one out of everybody', 'Who gon\' go out of the way to show me all the ways']
+    }
+  },
 }
 
 module.exports = data

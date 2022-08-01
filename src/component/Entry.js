@@ -1,7 +1,7 @@
 import React from 'react';
 
 function Entry(props){
-  const keywords = props.entry1.keywords;
+  const keywords = props.data.entry1.keywords;
   const displayKewords = keywords.map( (word,index) => {
     return(
       <li key={index}>{word}</li>
@@ -10,10 +10,11 @@ function Entry(props){
 
   return(
     <React.Fragment>
-      <h3>This is the Entry song title: {props.title}</h3>
-      <p>This is the author of the song: {props.entry1.author}</p>
+      <h3>This is the Entry song title: {props.data.entry1.title}</h3>
+      <p>This is the author of the song: {props.data.entry1.author}</p>
       <h3>Song keywords: </h3>
       <ul>{displayKewords}</ul>
+      <h4>{props.data.entry2.author}</h4>
     </React.Fragment>
   )
 }

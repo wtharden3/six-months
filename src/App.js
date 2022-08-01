@@ -7,8 +7,7 @@ function App() {
     <div className="App">
       <h1>Music Therapy Log</h1>
       <Feed 
-        title={data.entry1.title}
-        entry1={data.entry1}
+        data={data}
       />
     </div>
   );
