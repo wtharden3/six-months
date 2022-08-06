@@ -10,11 +10,10 @@ function Entry(props){
   
   return(
     <React.Fragment>
-      <h3>This is the Entry song title: {title}</h3>
-      <p>This is the author of the song: {author}</p>
-      <h3>Song keywords: </h3>
+      <h3>{title}</h3>
+      <p>{author}</p>
+      <h3>Keywords: </h3>
       <ul>{displayKewords}</ul>
-      <h4>{title}</h4>
     </React.Fragment>
   )
 }

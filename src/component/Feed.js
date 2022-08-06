@@ -9,8 +9,6 @@ function Feed(props){
   const [entryArr, setEntryArr] = useState([]);
 
   useEffect(() => {
-    console.log(data == entryArr);
-    console.log(entryArr);
     setEntryArr(getEntry(data));
   }, [data]);
 
@@ -23,10 +21,8 @@ function Feed(props){
   }
 
   const displayEntries = entryArr.map( (entry, index) => {
-    console.log(data);
-    console.log(data[entry]);
     return(
-      <Col sm="2">
+      <Col>
         <Entry entry={data[entry]} />
       </Col>
     )
@@ -36,9 +32,6 @@ function Feed(props){
     <Container>
       <Row>
         {displayEntries}
-        <Col>
-          {`entries: ${entryArr}`}
-        </Col>
       </Row>
     </Container>
   )

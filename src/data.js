@@ -45,6 +45,27 @@ const data = {
       preBridge2: ['Cause you the only one out of everybody', 'Who gon\' go out of the way to show me all the ways']
     }
   },
+  entry3: {
+    entryid: 3,
+    returnEntryId: function(){
+      return this.entryid;
+    },
+    title: 'Unloyal (with Ari Lennox)',
+    subtitle: 'Still Over It',
+    author: 'Summer Walker, Ari Lennox',
+    url: 'https://webwhit.com',
+    year: 2021,
+    feelings: 'This is a chill song',
+    playOnRepeat: true,
+    keywords: ['unloyal', 'untrue', 'Summer Walker', 'Ari Lennox', 'Bow Wow Durag', 'Keven Samuels', 'moving on', 'breakup', 'fine', 'too damn fine'],
+    entryDate: '8/5/2022',
+    lyrics: {
+      verse1: ['I aint takin yo shit today', 'I aint taking yo shit tomorrow', 'we can do it my way so', 'I aint sticking round','no, I ain\'t stickin\' round', 'you just want to pay with my heart yeah', 'I seen you with the girl at the party'],
+      hook: ['I guess I\'m unloyal baby', 'I guess I\'m untrue'],
+      verse2: ['You think that I need you boy you funny', 'got my own money so I\ma show you', 'you swear that i\'ll be lonely','guess you don\'t know me', 'guess you don\'t know'],
+      verse3: ['said you can pick up you\'re shit (no)', 'acting like you payin fo shit (broke)', 'tell me how a grown man so childish', 'always in kevin samuels comments', 'yo think i\'m just gonna stand on by an watch you waste my time']
+    }
+  }
 }
 
 module.exports = data
