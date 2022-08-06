@@ -57,7 +57,7 @@ const data = {
     year: 2021,
     feelings: 'This is a chill song',
     playOnRepeat: true,
-    keywords: ['unloyal', 'untrue', 'Summer Walker', 'Ari Lennox', 'Bow Wow Durag', 'Keven Samuels', 'moving on', 'breakup', 'fine', 'too damn fine'],
+    keywords: ['unloyal', 'untrue', 'Summer Walker', 'Ari Lennox', 'Bow Wow Durag', 'Kevin Samuels', 'moving on', 'breakup', 'fine', 'too damn fine'],
     entryDate: '8/5/2022',
     lyrics: {
       verse1: ['I aint takin yo shit today', 'I aint taking yo shit tomorrow', 'we can do it my way so', 'I aint sticking round','no, I ain\'t stickin\' round', 'you just want to pay with my heart yeah', 'I seen you with the girl at the party'],

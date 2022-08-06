@@ -29,11 +29,11 @@ function Feed(props){
   })
 
   return(
-    <Container>
+    <React.Fragment>
       <Row>
         {displayEntries}
       </Row>
-    </Container>
+    </React.Fragment>
   )
 }
 
