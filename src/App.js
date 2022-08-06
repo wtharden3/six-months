@@ -5,12 +5,14 @@ import data from './data';
 
 function App() {
   return (
-    <Container className="App">
-      <h1>Music Therapy Log</h1>
-      <Feed 
-        data={data}
-      />
-    </Container>
+    <div className="App text-bg-secondary w-100">
+      <Container>
+        <h1>Music Therapy Log</h1>
+        <Feed 
+          data={data}
+        />
+      </Container>
+    </div>
   );
 }
 

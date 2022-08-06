@@ -15,7 +15,7 @@ function Entry(props){
     <React.Fragment>
       <h3>{title}</h3>
       <p>{author}</p>
-      <h3>Keywords: </h3>
+      <h4>Keywords: </h4>
       <ul>{displayKewords}</ul>
     </React.Fragment>
   )
