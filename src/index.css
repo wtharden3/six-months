@@ -1,5 +1,6 @@
 :root {
-  background-color: #6c757d; /* to match background of the page*/
+  background-image: url('./img/music-bg.jpg');
+  background-color: rgb(33,37,41); /* to match background of the page*/
 }
 
 body {

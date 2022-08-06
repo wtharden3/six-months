@@ -9,3 +9,5 @@ to bring in a 3rd party api in order to practice with data. Or I may insert more
 [Best Api's for Beginners](https://rapidapi.com/collection/best-apis-for-beginners)
 
 ## Day 2:
+8/6/22: start working on split screen. It should look like this [look at the split](https://besthorrorscenes.com/)
+[Scroll affect](https://www.jasonpontin.com/) is inspo for my portfolio

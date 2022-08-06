@@ -1,0 +1,13 @@
+.Header {
+  position: relative;
+  height: 600px;
+}
+
+/* .backgroundImg{
+  position: absolute;
+} */
+
+.Header-bg{
+  background-color: rgb(108,117,125);
+  border-bottom: 1px solid #fff;
+}

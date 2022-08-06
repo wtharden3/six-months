@@ -21,7 +21,7 @@ function Feed(props){
 
   const displayEntries = entryArr.map( (entry, index) => {
     return(
-      <Col xl='6'>
+      <Col sm="12">
         <Entry entry={data[entry]} />
       </Col>
     )
